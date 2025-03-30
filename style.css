@@ -1,0 +1,50 @@
+/* Untuk semua halaman */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ff048e;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* bagian header */
+header {
+    background-color: #32021c;
+    color: #ff048e;
+    padding: 10px;
+}
+
+
+/* bagian nav ul  */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: rgb(254, 132, 203);
+    text-decoration: none;
+}
+
+
+/* bagian main */
+main {
+    max-width: 900px;
+    margin: auto;
+    background: #ff048e;
+    color: #34021c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* bagian text dan judul */
+h1, h2, p {
+    text-align: center;
+}
